@@ -94,12 +94,12 @@ $('#introduction').typeIt({})
 	.tiType('Hi, my name is Kha.')
 	.tiBreak()
 	.tiType('I am a ')
-	.tiType("<a href='#student'>student</a>.")
+	.tiType("<a href='#student' style='text-shadow: 1px 1px 1px #000000;'>student</a>.")
 	.tiPause(1500)
 	// .tiDelete(8)
 	.tiBreak()
 	.tiType('I am a ')
-	.tiType("<a href='#projects'>programmer</a>.")
+	.tiType("<a href='#projects' style='text-shadow: 1px 1px 1px #000000;'>programmer</a>.")
 
 // Image Slideshows
 $(document).ready(function () {
