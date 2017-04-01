@@ -1,16 +1,25 @@
 body {
 	color: white;
 	font-family: 'Nunito', sans-serif;
-	background: #324376;	
+	background: #324376;
+}
+body {
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	background: #324376;
 }
 
+
 /* Intro Text */
+
 h1 {
 	font-weight: 700;
 	font-size: 7.5vmin;
 }
 
+
 /* Section Headers */
+
 h2 {
 	font-weight: 700;
 	font-size: 6.5vmin;
@@ -19,8 +28,10 @@ h2 {
 	width: auto;
 }
 
+
 /* Project Titles */
-h3 { 
+
+h3 {
 	font-size: 4.0vmin;
 	display: flex;
 	font-weight: 600;
@@ -28,7 +39,9 @@ h3 {
 	text-align: center;
 }
 
+
 /* Project Descriptions */
+
 h4 {
 	font-size: 3.5vmin;
 	display: flex;
@@ -38,23 +51,25 @@ h4 {
 
 h5 {
 	font-size: 3.5vmin;
-	font-weight: 200i; 
+	font-weight: 200i;
 	font-style: italic;
 }
 
 .border {
-	border:1px solid white;
+	border: 1px solid white;
 	border-radius: 15px;
 	padding: 10px 10px 10px 10px;
 }
 
 .border-bigger {
-		border:1px solid white;
+	border: 1px solid white;
 	border-radius: 15px;
 	padding: 25px 25px 25px 25px;
 }
 
+
 /* $-- Setup Sections -- $ */
+
 
 /* .sectionDiv {
 border:3px solid red;
@@ -65,16 +80,21 @@ border-radius: 15px;
 	padding: 10px 50px 10px 40px;
 }
 
+
 /* Intro */
+
 .introDiv {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+
 /* Student */
-.studentDiv {
-}
+
+.studentDiv {}
+
 
 /* Projects */
 
@@ -90,9 +110,11 @@ border-radius: 15px;
 .image-height-resize-medium {
 	height: 30vh;
 }
+
 .imageHeightResize {
 	height: 60vh;
 }
+
 
 /* section {
 	margin: 0px 0px 0px 0px;
@@ -100,15 +122,14 @@ border-radius: 15px;
 
 .center-vertical-horizontal {
 	display: flex;
-	align-items: center;	
+	align-items: center;
 }
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
 	background: #FFF;
 }
-
 .div-slides {
-	border:3px solid red;
+	border: 3px solid red;
 	border-radius: 15px;
 }
 
@@ -120,20 +141,100 @@ border-radius: 15px;
 } */
 
 /* Card Flipping */
-.front, .back {
+.front,
+.back {
 	backface-visibility: hidden;
 	transform-style: preserve-3d;
 	transition: all 0.4s;
 }
-
 .back {
 	transform: rotateY(-180deg);
 }
-
 .flipped .back {
 	transform: rotateY(0deg);
 }
-
 .flipped .front {
 	transform: rotateY(180deg);
+}
+
+/*Social Icons*/
+.social-icons {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/*border: 1px solid white;*/
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+.tab {
+	margin-right: 3vw;
+}
+.circle {
+	width: 10vmin;
+	height: 10vmin;
+	font-size: 4vmin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border-radius: 100000vmin;
+	border: 1px solid white;
+}
+.nounderline {
+	text-decoration: none !important;
+}
+.fa-twitter {
+	color: hsl(195, 100%, 60%);
+	border-color: hsl(195, 100%, 60%);
+}
+.fa-twitter:hover {
+	background-color: hsl(195, 100%, 60%);
+}
+.fa-github {
+	color: #24292E;
+	border-color: #24292E;
+}
+.fa-github:hover {
+	background-color: #24292E;
+}
+.fa-linkedin {
+	color: hsl(199, 85%, 36%);
+	border-color: hsl(199, 85%, 36%);
+}
+.fa-linkedin:hover {
+	background-color: hsl(199, 85%, 36%);
+}
+.fa-envelope {
+	color: #8b9cce;
+	border-color: #8b9cce;
+}
+.fa-envelope:hover {
+	background-color: #8b9cce;
+}
+.fa-envelope:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-linkedin:hover {
+	color: hsl(0, 0%, 100%);
+}
+.screen-reader {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+.shadow .tab {
+	background: none;
+}
+.shadow .circle {
+	box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .4);
+}
+.shadow .fa-envelope,
+.shadow .fa-twitter,
+.shadow .fa-github,
+.shadow .fa-linkedin {
+	border-color: white;
+	padding: 11px;
 }

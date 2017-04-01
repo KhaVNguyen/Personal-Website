@@ -1,94 +1,125 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Personal Website - fullpage.js</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css'>
+	<meta charset="UTF-8">
+	<!-- Font Setup -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200i,300,400,600,700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/5535b66a5e.js"></script>
+	<title>Personal Website - fullpage.js</title>
 
-      <link rel="stylesheet" href="css/style.css">
 
-  
+	<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css'>
+
+	<link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
-  <!-- Font Setup -->
-
-<link href="https://fonts.googleapis.com/css?family=Nunito:200i,300,400,600,700" rel="stylesheet">
-
-<div id="fullpage">
-	<div class="section introDiv padding fp-auto-height-responsive">
-		<h1 id="introduction" class="border-bigger"></h1>
-	</div>
-	<div class="section center-vertical-horizontal padding fp-auto-height-responsive"> 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-7">
-					<h3 class="border" id="current">I am currently a student at Saratoga High School (Class of 2017)</h3>
-				</div>
-				<div class="col-lg-5">
-					<img id="falcon" src="http://p11cdn4static.sharpschool.com/UserFiles/Servers/Server_87541/Image/Saratoga-High-School-logo.png" class="img-responsive center-block image-height-resize-medium">
+		<div id="fullpage">
+		<div class="section introDiv padding fp-auto-height-responsive">
+			<h1 id="introduction" class="border-bigger"></h1>
+			<ul id="social-icons" class="social-icons shadow">
+				<li class="tab" style="margin-left: 3vw;">
+					<a href="https://twitter.com/khapiano" class="nounderline">
+						<i class="fa fa-twitter circle"></i>
+						<span class="screen-reader">Twitter</span>
+					</a>
+				</li>
+				<li class="tab">
+					<a href="#" class="nounderline">
+						<i class="fa fa-github circle"></i>
+						<span class="screen-reader">GitHub</span>
+					</a>
+				</li>
+				<li class="tab">
+					<a href="#" class="nounderline">
+						<i class="fa fa-linkedin circle"></i>
+						<span class="screen-reader">LinkedIn</span>
+					</a>
+				</li>
+				<li class="tab">
+					<a href="#" class="nounderline">
+						<i class="fa fa-envelope circle"></i>
+						<span class="screen-reader">E-Mail</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section center-vertical-horizontal padding fp-auto-height-responsive">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-7">
+						<h3 class="border" id="current">I am currently a student at Saratoga High School (Class of 2017)</h3>
+					</div>
+					<div class="col-lg-5">
+						<img id="falcon" src="http://p11cdn4static.sharpschool.com/UserFiles/Servers/Server_87541/Image/Saratoga-High-School-logo.png"
+						    class="img-responsive center-block image-height-resize-medium">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="section padding fp-auto-height-responsive">
-		<h2 class="border" id="projects-title">Projects</h2>
-		<div class="slide">
-			<div class="container-fluid">
-				<div class="row">
-					<div id="project-gallery" class="col-md-4 imageHeightResize swiper-container">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+		<div class="section padding fp-auto-height-responsive">
+			<h2 class="border" id="projects-title">Projects</h2>
+			<div class="slide">
+				<div class="container-fluid">
+					<div class="row">
+						<div id="project-gallery" class="col-md-4 imageHeightResize swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+								</div>
+								<div class="swiper-slide">
+									<img src="http://a1.mzstatic.com/us/r30/Purple71/v4/55/6e/a6/556ea653-cb45-22cf-55bb-30f814b85ee2/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+								</div>
+								<div class="swiper-slide">
+									<img src="http://a1.mzstatic.com/us/r30/Purple41/v4/13/48/38/1348386b-d0af-5fdd-d852-ebd5864e897c/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+								</div>
+								<div class="swiper-slide">
+									<img src="http://a4.mzstatic.com/us/r30/Purple41/v4/0e/7f/41/0e7f419f-d6a7-f5eb-22f3-2ea5c696f07e/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+								</div>
 							</div>
-							<div class="swiper-slide">
-								<img src="http://a1.mzstatic.com/us/r30/Purple71/v4/55/6e/a6/556ea653-cb45-22cf-55bb-30f814b85ee2/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-							</div>
-							<div class="swiper-slide">
-								<img src="http://a1.mzstatic.com/us/r30/Purple41/v4/13/48/38/1348386b-d0af-5fdd-d852-ebd5864e897c/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-							</div>
-							<div class="swiper-slide">
-								<img src="http://a4.mzstatic.com/us/r30/Purple41/v4/0e/7f/41/0e7f419f-d6a7-f5eb-22f3-2ea5c696f07e/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination swiper-pagination-white"></div>
 						</div>
-						<!-- Add Pagination -->
-						<div class="swiper-pagination swiper-pagination-white"></div>
-					</div>
-					<div id="project-description" class="col-md-8">
-						<h4 class="border">Prioto is a Swift-based iOS app that combats issues with work shared by students and employees everywhere - over scheduling and burnout - by integrating two highly-regarded productivity techniques - the Eisenhower Method and Pomodoro Technique. <br><br>✰ Featured on iSenaCode as a top free app <br>✰ Chosen as one of three top apps at Make School Summer Academy 2016 in Sunnyvale</h4>
-						<h5>Commentary here</h5>
+						<div id="project-description" class="col-md-8">
+							<h4 class="border">Prioto is a Swift-based iOS app that combats issues with work shared by students and employees everywhere - over scheduling
+								and burnout - by integrating two highly-regarded productivity techniques - the Eisenhower Method and Pomodoro Technique.
+								<br><br>✰ Featured on iSenaCode as a top free app <br>✰ Chosen as one of three top apps at Make School Summer Academy
+								2016 in Sunnyvale</h4>
+							<h5>Commentary here</h5>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-4">
-						<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-					</div>
-					<div class="col-md-8">
-						<h4 class="border">Banana Fanatic is a Java-based desktop game where two players control monkeys with the goal of collecting more bananas than the other. Monkeys can throw pineapples at each other in order to hamper the opponent.</h4>
+			<div class="slide">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+						</div>
+						<div class="col-md-8">
+							<h4 class="border">Banana Fanatic is a Java-based desktop game where two players control monkeys with the goal of collecting more bananas
+								than the other. Monkeys can throw pineapples at each other in order to hamper the opponent.</h4>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js'></script>
-<script src='https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
-
-    <script src="js/index.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/jquery.typeit/4.3.0/typeit.min.js'></script>
+	<script src='https://cdn.rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
+	<script src="js/index.js"></script>
 
 </body>
+
 </html>
