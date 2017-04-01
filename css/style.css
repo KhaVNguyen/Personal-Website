@@ -1,0 +1,139 @@
+body {
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	background: #324376;	
+}
+
+/* Intro Text */
+h1 {
+	font-weight: 700;
+	font-size: 7.5vmin;
+}
+
+/* Section Headers */
+h2 {
+	font-weight: 700;
+	font-size: 6.5vmin;
+	display: flex;
+	justify-content: center;
+	width: auto;
+}
+
+/* Project Titles */
+h3 { 
+	font-size: 4.0vmin;
+	display: flex;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+}
+
+/* Project Descriptions */
+h4 {
+	font-size: 3.5vmin;
+	display: flex;
+	font-weight: 400;
+	justify-content: flex-start;
+}
+
+h5 {
+	font-size: 3.5vmin;
+	font-weight: 200i; 
+	font-style: italic;
+}
+
+.border {
+	border:1px solid white;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+}
+
+.border-bigger {
+		border:1px solid white;
+	border-radius: 15px;
+	padding: 25px 25px 25px 25px;
+}
+
+/* $-- Setup Sections -- $ */
+
+/* .sectionDiv {
+border:3px solid red;
+border-radius: 15px;
+} */
+
+.padding {
+	padding: 10px 50px 10px 40px;
+}
+
+/* Intro */
+.introDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Student */
+.studentDiv {
+}
+
+/* Projects */
+
+.projectDescription {
+	font-weight: 400;
+}
+
+.image-shadow {
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-height-resize-medium {
+	height: 50vh;
+}
+.imageHeightResize {
+	height: 80vh;
+}
+
+/* section {
+	margin: 0px 0px 0px 0px;
+} */
+
+.center-vertical-horizontal {
+	display: flex;
+	align-items: center;	
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	background: #FFF;
+}
+
+.div-slides {
+	border:3px solid red;
+	border-radius: 15px;
+}
+
+/* White border around divs */
+
+/* div {
+border:1px solid white;
+border-radius: 15px;
+} */
+
+/* Card Flipping */
+.front, .back {
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: all 0.4s;
+}
+
+.back {
+	transform: rotateY(-180deg);
+}
+
+.flipped .back {
+	transform: rotateY(0deg);
+}
+
+.flipped .front {
+	transform: rotateY(180deg);
+}
