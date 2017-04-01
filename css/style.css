@@ -190,8 +190,10 @@ border-radius: 15px;
 	background-color: hsl(195, 100%, 60%);
 }
 .fa-github {
-	color: #24292E;
-	border-color: #24292E;
+	/*color: #24292E;
+	border-color: #24292E;*/
+	color: white;
+	border-color: white;
 }
 .fa-github:hover {
 	background-color: #24292E;
