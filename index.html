@@ -38,24 +38,24 @@
 
 			<h1 id="introduction" class="border-bigger drop-shadow"></h1>
 			<ul id="social-icons" class="social-icons shadow">
-				<li class="tab" style="margin-left: 3vw;">
+				<li class="tab tooltips" title="Twitter" style="margin-left: 3vw;">
 					<a href="https://twitter.com/khapiano" class="nounderline">
 						<i class="fa fa-twitter circle"></i>
 						<span class="screen-reader">Twitter</span>
 					</a>
 				</li>
-				<li class="tab">
+				<li class="tab tooltips" title="GitHub">
 					<a href="https://github.com/Reservations" class="nounderline">
 						<i class="fa fa-github circle"></i>
 						<span class="screen-reader">GitHub</span>
 					</a>
 				</li>
-				<!--<li class="tab">
-					<a href="#" class="nounderline">
-						<i class="fa fa-linkedin circle"></i>
-						<span class="screen-reader">LinkedIn</span>
+				<li class="tab tooltips" title="CodePen">
+					<a href="http://codepen.io/kha/" class="nounderline">
+						<i class="fa fa-codepen circle"></i>
+						<span class="screen-reader">CodePen</span>
 					</a>
-				</li>-->
+				</li>
 				<li class="tab tooltips" title="kha.vng@gmail.com">
 					<a href="mailto:kha.vng@gmail.com" class="nounderline">
 						<i class="fa fa-envelope circle"></i>
@@ -82,30 +82,44 @@
 			<div class="slide">
 				<div class="container-fluid">
 					<div class="row">
-						<div id="project-gallery" class="col-md-4 imageHeightResize swiper-container">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+						<div class="col-md-4 col-lg-4">
+							<div id="project-gallery" class="imageHeightResize swiper-container">
+
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+									</div>
+									<div class="swiper-slide">
+										<img src="http://a1.mzstatic.com/us/r30/Purple71/v4/55/6e/a6/556ea653-cb45-22cf-55bb-30f814b85ee2/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+									</div>
+									<div class="swiper-slide">
+										<img src="http://a1.mzstatic.com/us/r30/Purple41/v4/13/48/38/1348386b-d0af-5fdd-d852-ebd5864e897c/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+									</div>
+									<div class="swiper-slide">
+										<img src="http://a4.mzstatic.com/us/r30/Purple41/v4/0e/7f/41/0e7f419f-d6a7-f5eb-22f3-2ea5c696f07e/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+									</div>
 								</div>
-								<div class="swiper-slide">
-									<img src="http://a1.mzstatic.com/us/r30/Purple71/v4/55/6e/a6/556ea653-cb45-22cf-55bb-30f814b85ee2/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-								</div>
-								<div class="swiper-slide">
-									<img src="http://a1.mzstatic.com/us/r30/Purple41/v4/13/48/38/1348386b-d0af-5fdd-d852-ebd5864e897c/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-								</div>
-								<div class="swiper-slide">
-									<img src="http://a4.mzstatic.com/us/r30/Purple41/v4/0e/7f/41/0e7f419f-d6a7-f5eb-22f3-2ea5c696f07e/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
-								</div>
+								<!-- Add Pagination -->
+								<div class="swiper-pagination swiper-pagination-white"></div>
+
 							</div>
-							<!-- Add Pagination -->
-							<div class="swiper-pagination swiper-pagination-white"></div>
+							<div class="project-links">
+								<a href="https://itunes.apple.com/us/app/prioto-boost-productivity-short-long-term/id1142814748?mt=8"><img src="http://i.imgur.com/qXtKZz4.png" class="image-height-resize-small project-button"></a>
+							</div>
 						</div>
 						<div id="project-description" class="col-md-8">
+
 							<h4 class="border">Prioto is a Swift-based iOS app that combats issues with work shared by students and employees everywhere - over scheduling
 								and burnout - by integrating two highly-regarded productivity techniques - the Eisenhower Method and Pomodoro Technique.
-								<br><br>✰ Featured on iSenaCode as a top free app <br>✰ Chosen as one of three top apps at Make School Summer Academy
-								2016 in Sunnyvale</h4>
-							<h5>Commentary here</h5>
+								<br><br> The Eisenhower method encourages users to consider both the urgency and importance of each of their tasks.
+								This optimizes efficiency by dedicating valuable time and energy to the most impactful tasks. The Pomodoro technique
+								addresses the issue of work burnout by encouraging users to work in intervals of work and break rather than one long
+								session of work. For example, one would work for 25 minutes, take a break for 5 minutes, then repeat.
+							</h4>
+							<h4 class="border">
+								✰ Featured on iSenaCode as a top free app <br>✰ Chosen as one of three top apps at Make School Summer Academy 2016
+								in Sunnyvale
+							</h4>
 						</div>
 					</div>
 				</div>
@@ -114,22 +128,21 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-4">
-							<img src="http://a5.mzstatic.com/us/r30/Purple22/v4/11/98/89/11988985-8532-0a88-1555-26c462355357/screen696x696.jpeg" class="img-responsive center-block imageHeightResize image-shadow">
+							<img src="images/monkey.png" class="img-responsive center-block" style="height: 40vh">
 						</div>
 						<div class="col-md-8">
 							<h4 class="border">Banana Fanatic is a Java-based desktop game where two players control monkeys with the goal of collecting more bananas
 								than the other. Monkeys can throw pineapples at each other in order to hamper the opponent.</h4>
+							<h4 class="border">
+								✰ Written using the LibGDX Java game development framework
+							</h4>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<script src="js/index.js"></script>
-
-
-
 </body>
 
 </html>

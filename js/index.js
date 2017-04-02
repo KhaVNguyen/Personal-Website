@@ -15,9 +15,9 @@
 // 	}
 // }
 
-$(document).ready(function () {
-	showViewPortSize(true);
-});
+// $(document).ready(function () {
+// 	showViewPortSize(true);
+// });
 
 
 $(document).ready(function () {
@@ -27,6 +27,8 @@ $(document).ready(function () {
 		css3: true,
 		responsiveHeight: 550,
 		responsiveWidth: 1000,
+		responsiveSlides: true,
+		autoplay: false,
 
 		navigation: true,
 		navigationPosition: 'right',
