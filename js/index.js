@@ -55,6 +55,8 @@ $(document).ready(function () {
 				$('#project-gallery').removeClass('slideOutLeft');
 				$('#project-description').addClass('slideInRight');
 				$('#project-description').removeClass('slideOutRight');
+				$('#prioto-appstore').addClass('bounceInUp');
+				$('#prioto-code').addClass('bounceInUp');
 			}
 
 			if (index === 1) {
@@ -72,6 +74,9 @@ $(document).ready(function () {
 				$('#project-gallery').addClass('slideOutLeft');
 				$('#project-description').removeClass('slideInRight');
 				$('#project-description').addClass('slideOutRight');
+				$('#prioto-appstore').removeClass('bounceInUp');
+				$('#prioto-code').removeClass('bounceInUp');
+
 			}
 
 			console.log('index:', index, 'nextIndex:', nextIndex, 'direction:', direction);

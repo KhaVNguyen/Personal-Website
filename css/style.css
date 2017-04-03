@@ -35,6 +35,7 @@ body {
 /* Intro Text */
 
 h1 {
+	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	font-size: 7.5vmin;
 }
@@ -43,6 +44,7 @@ h1 {
 /* Section Headers */
 
 h2 {
+	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	font-size: 6.5vmin;
 	display: flex;
@@ -54,6 +56,7 @@ h2 {
 /* Project Titles */
 
 h3 {
+	font-family: 'Nunito', sans-serif;
 	font-size: 4.0vmin;
 	display: flex;
 	font-weight: 600;
@@ -65,22 +68,31 @@ h3 {
 /* Project Descriptions */
 
 h4 {
-	font-size: 3.5vmin;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3vmin;
+	font-weight: 300;
 	display: flex;
-	font-weight: 400;
 	justify-content: flex-start;
 }
 
 h5 {
-	font-size: 3.5vmin;
-	font-weight: 200i;
-	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.75vmin;
+	font-weight: 200;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .border {
 	border: 1px solid white;
 	border-radius: 15px;
 	padding: 10px 10px 10px 10px;
+}
+
+.border-medium {
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 15px 15px 15px 15px;
 }
 
 .border-bigger {
@@ -144,7 +156,7 @@ border-radius: 15px;
 }
 
 .imageHeightResize {
-	height: 60vh;
+	height: 65vh;
 }
 
 
@@ -311,15 +323,20 @@ border-radius: 15px;
 	padding: 11px;
 }
 
+#project-gallery {
+	height: 70vh;
+}
+
 .project-links-single {
-	margin-top: 10px;
+	margin-top: 5px;
 	display: flex;
 	justify-content: center;
 }
+
 .project-links-multiple {
-	margin-top: 10px;
+	margin-top: 5px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .project-button {
@@ -350,7 +367,6 @@ border-radius: 15px;
 	-webkit-transform: scale(1.05, 1.05);
 	transform: scale(1.05, 1.05);
 }
-
 
 .project-button:hover::after {
 	opacity: 1;
