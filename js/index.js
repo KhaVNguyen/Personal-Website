@@ -47,7 +47,8 @@ $(document).ready(function () {
 			} else if (nextIndex === 2) {
 				$('#current').addClass('slideInLeft');
 				$('#current').removeClass('slideOutLeft');
-				$('#falcon').addClass('tada');
+				$('#falcon').addClass('slideInRight');
+				$('#falcon').removeClass('slideOutRight');
 			} else if (nextIndex === 3) {
 				$('#projects-title').addClass('fadeInDown');
 				$('#project-gallery').addClass('slideInLeft');
@@ -63,7 +64,8 @@ $(document).ready(function () {
 			} else if (index === 2) {
 				$('#current').removeClass('slideInLeft');
 				$('#current').addClass('slideOutLeft');
-				$('#falcon').removeClass('tada');
+				$('#falcon').removeClass('slideInRight');
+				$('#falcon').addClass('slideOutRight');
 			} else if (index === 3) {
 				$('#projects-title').removeClass('fadeInDown');
 				$('#project-gallery').removeClass('slideInLeft');
@@ -145,3 +147,24 @@ $(document).ready(function () {
 
 	});
 });
+
+// // invert project button image
+// $(function () {
+// 	$("#prioto-appstore").on({
+// 		mouseenter: function () {
+// 			$(this).attr({
+// 				"src": "http://i.imgur.com/maZFW5D.png",
+// 			});
+// 			$(this).css('border', 'none');
+// 			$(this).css('padding', '0px 0px 0px 0px');
+
+// 		},
+// 		mouseleave: function () {
+// 			$(this).attr('src', 'http://i.imgur.com/qXtKZz4.png');
+// 			$(this).css('border', '1px solid white');
+// 			$(this).css('padding', '3px 3px 3px 3px');
+
+// 		}
+// 	});
+
+// });
