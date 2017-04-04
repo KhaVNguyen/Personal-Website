@@ -221,25 +221,27 @@ border-radius: 15px;
 .social-icons {
 	list-style-type: none;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	align-content: center;
 	/*border: 1px solid white;*/
+	width: 36vw;
 	padding: 5px 5px 5px 5px;
 	border-radius: 15px;
 	margin-top: 20px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 }
 
 @media only screen and (max-width: 1000px) {
-   .social-icons {
-	   width: 50vw;
-   }
+	.social-icons {
+		width: 75vw;
+	}
 }
 
-.tab {
+
+/*.tab {
 	margin-right: 3vw;
-}
+}*/
 
 .circle {
 	width: 10vmin;
@@ -253,6 +255,13 @@ border-radius: 15px;
 	border: 1px solid white;
 }
 
+@media only screen and (max-width: 1000px) {
+	.circle {
+		width: 15vmin;
+		height: 15vmin;
+		font-size: 6vmin;
+	}
+}
 .nounderline {
 	text-decoration: none !important;
 }
@@ -273,6 +282,11 @@ border-radius: 15px;
 	border-color: white;
 	font-size: 3.8vmin;
 }
+@media only screen and (max-width: 1000px) {
+	.fa-github {
+		font-size: 5.7vmin;
+	}
+}
 
 .fa-github:hover {
 	background-color: #24292E;
@@ -282,6 +296,11 @@ border-radius: 15px;
 	color: white;
 	border-color: white;
 	font-size: 3.5vmin;
+}
+@media only screen and (max-width: 1000px) {
+	.fa-codepen {
+		font-size: 5.25vmin;
+	}
 }
 
 .fa-codepen:hover {
@@ -294,6 +313,12 @@ border-radius: 15px;
 	color: hsl(195, 100%, 60%);
 	border-color: hsl(195, 100%, 60%);
 	font-size: 3.5vmin;
+}
+
+@media only screen and (max-width: 1000px) {
+	.fa-envelope {
+		font-size: 5.25vmin;
+	}
 }
 
 .fa-envelope:hover {
@@ -367,9 +392,9 @@ border-radius: 15px;
 }
 
 @media only screen and (max-width: 1000px) {
-   .project-button {
-	   width: 30vw;
-   }
+	.project-button {
+		width: 30vw;
+	}
 }
 
 .project-button::after {
