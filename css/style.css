@@ -1,3 +1,5 @@
+@import "md-material-shadows.scss";
+
 body {
 	color: white;
 	font-family: 'Nunito', sans-serif;
@@ -68,7 +70,7 @@ h3 {
 /* Project Descriptions */
 
 h4 {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-size: 3vmin;
 	font-weight: 300;
 	display: flex;
@@ -76,7 +78,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-size: 2.75vmin;
 	font-weight: 200;
 	display: flex;
@@ -262,6 +264,7 @@ border-radius: 15px;
 		font-size: 6vmin;
 	}
 }
+
 .nounderline {
 	text-decoration: none !important;
 }
@@ -282,6 +285,7 @@ border-radius: 15px;
 	border-color: white;
 	font-size: 3.8vmin;
 }
+
 @media only screen and (max-width: 1000px) {
 	.fa-github {
 		font-size: 5.7vmin;
@@ -297,6 +301,7 @@ border-radius: 15px;
 	border-color: white;
 	font-size: 3.5vmin;
 }
+
 @media only screen and (max-width: 1000px) {
 	.fa-codepen {
 		font-size: 5.25vmin;
