@@ -51,10 +51,10 @@ $(document).ready(function () {
 				$('#falcon').removeClass('slideOutRight');
 			} else if (nextIndex === 3) {
 				$('#projects-title').addClass('fadeInDown');
-				$('#project-gallery').addClass('slideInLeft');
-				$('#project-gallery').removeClass('slideOutLeft');
-				$('#project-description').addClass('slideInRight');
-				$('#project-description').removeClass('slideOutRight');
+				$('#prioto-gallery').addClass('slideInLeft');
+				$('#prioto-gallery').removeClass('slideOutLeft');
+				$('#prioto-description').addClass('slideInRight');
+				$('#prioto-description').removeClass('slideOutRight');
 				$('#prioto-appstore').addClass('bounceInUp');
 				$('#prioto-code').addClass('bounceInUp');
 			}
@@ -70,10 +70,10 @@ $(document).ready(function () {
 				$('#falcon').addClass('slideOutRight');
 			} else if (index === 3) {
 				$('#projects-title').removeClass('fadeInDown');
-				$('#project-gallery').removeClass('slideInLeft');
-				$('#project-gallery').addClass('slideOutLeft');
-				$('#project-description').removeClass('slideInRight');
-				$('#project-description').addClass('slideOutRight');
+				$('#prioto-gallery').removeClass('slideInLeft');
+				$('#prioto-gallery').addClass('slideOutLeft');
+				$('#prioto-description').removeClass('slideInRight');
+				$('#prioto-description').addClass('slideOutRight');
 				$('#prioto-appstore').removeClass('bounceInUp');
 				$('#prioto-code').removeClass('bounceInUp');
 
@@ -87,8 +87,8 @@ $(document).ready(function () {
 			$('#current').addClass('animated');
 			$('#falcon').addClass('animated');
 			$('#projects-title').addClass('animated');
-			$('#project-gallery').addClass('animated');
-			$('#project-description').addClass('animated');
+			$('#prioto-gallery').addClass('animated');
+			$('#prioto-description').addClass('animated');
 
 
 		}
