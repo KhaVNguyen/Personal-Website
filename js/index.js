@@ -109,6 +109,10 @@ $('#introduction').typeIt({})
 	.tiBreak()
 	.tiType('I am a ')
 	.tiType("<a href='#projects' style='text-shadow: 1px 1px 1px #000000;'>programmer</a>.")
+	.tiSettings({
+		cursor: false
+	});
+
 
 // Image Slideshows
 $(document).ready(function () {
