@@ -93,50 +93,42 @@ $(document).ready(function () {
 
 		}
 	});
+	$('#introduction').typeIt({})
+		.tiType('Hi, my name is Kha.')
+		.tiBreak()
+		.tiType('I am a ')
+		.tiType("<a href='#student' style='text-shadow: 1px 1px 1px #000000;'>student</a>.")
+		.tiPause(1500)
+		// .tiDelete(8)
+		.tiBreak()
+		.tiType('I am a ')
+		.tiType("<a href='#projects' style='text-shadow: 1px 1px 1px #000000;'>programmer</a>.")
+		.tiSettings({
+			cursor: false
+		});
 
-});
 
-// $("#introduction").typeIt({
-// 	strings: ['Hi, my name is Kha.', 'I am a student.', 'I am a programmer.', 'I am a musician.',' I am a hobbyist.']
-// });
-
-$('#introduction').typeIt({})
-	.tiType('Hi, my name is Kha.')
-	.tiBreak()
-	.tiType('I am a ')
-	.tiType("<a href='#student' style='text-shadow: 1px 1px 1px #000000;'>student</a>.")
-	.tiPause(1500)
-	// .tiDelete(8)
-	.tiBreak()
-	.tiType('I am a ')
-	.tiType("<a href='#projects' style='text-shadow: 1px 1px 1px #000000;'>programmer</a>.")
-	.tiSettings({
-		cursor: false
+	// Image Slideshows
+	$(document).ready(function () {
+		//initialize swiper when document ready
+		var mySwiper = new Swiper('.swiper-container', {
+			// Optional parameters
+			direction: 'horizontal',
+			mode: 'horizontal',
+			loop: true,
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			autoplay: 5000,
+			autoplayDisableOnInteraction: true,
+			spaceBetween: 10,
+		})
 	});
 
+	// Card flip
+	$('.flip-container').click(function (e) {
+		$(this).toggleClass('flipped');
+	});
 
-// Image Slideshows
-$(document).ready(function () {
-	//initialize swiper when document ready
-	var mySwiper = new Swiper('.swiper-container', {
-		// Optional parameters
-		direction: 'horizontal',
-		mode: 'horizontal',
-		loop: true,
-		pagination: '.swiper-pagination',
-		paginationClickable: true,
-		autoplay: 5000,
-		autoplayDisableOnInteraction: true,
-		spaceBetween: 10,
-	})
-});
-
-// Card flip
-$('.flip-container').click(function (e) {
-	$(this).toggleClass('flipped');
-});
-
-$(document).ready(function () {
 	$('.tooltips').tooltipster({
 		theme: 'tooltipster-shadow',
 		trigger: 'custom',
@@ -156,4 +148,5 @@ $(document).ready(function () {
 		animation: 'grow',
 
 	});
+
 });
